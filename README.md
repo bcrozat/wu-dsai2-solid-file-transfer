@@ -29,7 +29,7 @@ Solid credentials consist of a WebID, which is an URL including the username (li
 
 We choose to register at Inrupt, which is the company co-founded by Sir Tim Berners-Lee behind Solid, and provide good documentation to develop Solid-based applications. Registration is simply done through [Inrupt PodSpaces](https://docs.inrupt.com/pod-spaces/) by providing an email address, choosing a username and defining a password. Once done, 
 
-![alt text](image.png)
+![alt text](wu-dsai2-podspace-registration-complete.png)
 
 *Note: We first used [iGrant](https://igrant.io/datapod.html) to create our Pods. iGrant is a Swedish intermediation infrastructure provider for data exchange and verification services recommended by Solid through their official website. The registration flow is intuitive, using a user-friendly web browser interface. One must choose a username, password, provide full name and an email address to register. Once created, the credentials can be used to access a web drive application, that displays a set of folders and files. However, iGrant provides a full graphic user interface (GUI) with functions similar to a drive. Because our goal is to create a custom app ourselves, we decided to drop it in favor of Inrupt, as recommended by Solid in their development tutorial. Bottomline: if you want to simply use pods, a provider such as iGrant should be sufficient. If you want to build an app, you should look under the hood and the[Inrupt - Getting started](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/) tutorial is a good place to start.*
 

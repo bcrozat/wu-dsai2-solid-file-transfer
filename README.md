@@ -41,4 +41,16 @@ Once you get your Pod and credential, the next step (in the developer way) is to
 
 The following dependencies must be installed:
 - [nodejs](https://nodejs.org/en) is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.
-- [npm](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager) is the standard package manager for Node.js - in September 2022 is consisted of over 2.1 million packages, making it the biggest single language code repository on Earth!
+- [npm](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager) is the standard package manager for Node.js - in September 2022 is consisted of over 2.1 million packages, making it the biggest single language code repository on Earth! &rarr; install it by running `` in your terminal
+- [client librairies](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/#install-the-client-libraries), including Solid libraries &rarr; install it by running `install @inrupt/solid-client @inrupt/solid-client-authn-browser @inrupt/vocab-common-rdf @inrupt/vocab-solid` in your terminal
+- [webpack](https://webpack.js.org/) &rarr; install it by running `npm install webpack webpack-cli webpack-dev-server css-loader style-loader --save-dev` in your terminal
+
+See the [Inrupt tutorial](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/) for more details.
+
+### Running your application
+
+Run the following to launch the application 
+
+```
+npm run build && npm run start
+```

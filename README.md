@@ -49,8 +49,12 @@ See the [Inrupt tutorial](https://docs.inrupt.com/developer-tools/javascript/cli
 
 ### Running your application
 
-Run the following to launch the application 
+Run the following to launch the application.
 
 ```
 npm run build && npm run start
 ```
+
+### Exiting your application
+
+Hit `ctrl` + `c` then `y` and `enter` to exit your application.
